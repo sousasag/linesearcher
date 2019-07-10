@@ -1,0 +1,7 @@
+specfits='sun_harps_ganymede.fits'
+fileout='sun_harps_ganymede.lines'
+lambdai=6000.
+lambdaf=6500.
+smoothder=4
+rejt=0.998
+lineresol=0.07
