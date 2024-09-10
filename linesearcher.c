@@ -571,8 +571,8 @@ if ( (linha > lambdai+2*space) && (linha < lambdaf-2*space) )
 //				printf("%.5f  %.5f %.5f \n", linha-3, acoef[hjl+2],linha+3);			
 				if ( acoef[hjl+2] > linha-spacel && acoef[hjl+2] < linha+spacel)
 //					printf("%.5f ENTROU\n", acoef[hjl+2]);
-					fprintf(pFile2,"%7.2f  %10.5f\n",acoef[hjl+2], acoef[hjl]+1);
-					printf("%7.2f  %10.5f\n",acoef[hjl+2], acoef[hjl]+1);
+					fprintf(pFile2,"%10.5f  %10.5f\n",acoef[hjl+2], acoef[hjl]+1);
+					printf("%10.5f  %10.5f\n",acoef[hjl+2], acoef[hjl]+1);
 
 				}
 		}
